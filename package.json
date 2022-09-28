@@ -4,7 +4,8 @@
   "description": "MAPD713 - Enterprise Technologies for Mobile Platforms Assignment 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt validate --verbose",
+            "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,7 @@
     "Microservice-A1"
   ],
   "author": "Bing Pan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bpan2/Microservice-A1/issues"
   },
