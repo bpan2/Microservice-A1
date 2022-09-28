@@ -1,0 +1,22 @@
+{
+  "name": "microservice-assignment-1",
+  "version": "1.0.0",
+  "description": "MAPD713 - Enterprise Technologies for Mobile Platforms Assignment 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpan2/Microservice-A1.git"
+  },
+  "keywords": [
+    "Microservice-A1"
+  ],
+  "author": "Bing Pan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpan2/Microservice-A1/issues"
+  },
+  "homepage": "https://github.com/bpan2/Microservice-A1#readme"
+}
