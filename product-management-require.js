@@ -1,6 +1,7 @@
 var seneca = require('seneca')().use('products-storage')
+
 var product =  {
-    name: "Laptop",
+    productname: "Laptop",
     price: "201.99",
     category: "PC"
 }
@@ -12,3 +13,4 @@ function add_product() {
 }
 
 add_product();
+
