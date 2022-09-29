@@ -1,7 +1,7 @@
 var plugin = function(options) {
     var seneca = this;
 
-    seneca.add({ role: 'product', cmd: 'add' }, function (msg, respond) {
+    seneca.add({role:'product', cmd:'add'}, function (msg, respond) {
         this.make('product').data$(msg.data).save$(respond);
     });
 
@@ -17,4 +17,5 @@ var plugin = function(options) {
         this.make('product').remove$(msg.data.product_id, respond);
     });
 }
+
 module.exports = plugin;
