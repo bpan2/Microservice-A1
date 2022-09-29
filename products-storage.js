@@ -16,6 +16,10 @@ var plugin = function(options) {
     seneca.add({ role: 'product', cmd: 'delete' }, function (msg, respond) {
         this.make('product').remove$(msg.data.product_id, respond);
     });
+
+    seneca.add({ role: 'product', cmd: 'delete-all' }, function (msg, respond) {
+        this.make('product').remove$();
+    });
 }
 
 module.exports = plugin;
