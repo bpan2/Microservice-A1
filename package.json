@@ -4,7 +4,7 @@
   "description": "MAPD713 - Enterprise Technologies for Mobile Platforms Assignment 1",
   "main": "index.js",
   "scripts": {
-    "test": "grunt validate --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
@@ -21,6 +21,12 @@
   },
   "homepage": "https://github.com/bpan2/Microservice-A1#readme",
   "dependencies": {
-    "seneca": "^3.29.0"
+    "body-parser": "^1.14.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "seneca": "2.0.0",
+    "seneca-entity": "^1.3.0",
+    "seneca-mongo-store": "^0.2.0",
+    "type-is": "^1.6.10"
   }
 }
